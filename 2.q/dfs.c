@@ -6,11 +6,11 @@
 
 // Adjacency matrix representing the directed weighted graph
 int graph[MAX_NODES][MAX_NODES] = {
-    {0, 20, 30, 40, 0},
-    {0, 0, 30, 0, 20},
-    {0, 0, 0, 5, 40},
-    {0, 0, 0, 0, 80},
-    {0, 0, 0, 0, 0},
+    {0, 20, 30, 10, 0},
+    {0, 0, 40, 0, 0},
+    {0, 0, 0, 10, 20},
+    {0, 0, 5, 0, 80},
+    {0, 0, 10, 0, 0},
 };
 
 void DFS(int node, bool visited[]) {
